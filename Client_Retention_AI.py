@@ -118,5 +118,14 @@ print(X_test.shape)  # должно быть (2000, n_features)
 print(y_test.shape)  # должно быть (2000,)
 print(y_pred.shape)  # должно совпадать с y_test
 
+# Results
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, roc_auc_score
+cm = confusion_matrix(y_test, y_pred)
+print("Confusion Matrix:\n", cm)
+score = accuracy_score(y_test, y_pred)
+print("Accuracy:", score)
+print(classification_report(y_test, y_pred))
+roc_score = roc_auc_score(y_test, y_pred)
+print("ROC-AUC:", roc_score)
 
 score
