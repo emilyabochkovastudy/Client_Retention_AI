@@ -85,7 +85,7 @@ early_stopping = tf.keras.callbacks.EarlyStopping(
 )
 
 # Modelling
-model_history = classifier.fit(X_train,y_train,validation_split=0.33,batch_size=10,epochs=1000,callbacks=early_stopping)
+model_history = classifier.fit(X_train, y_train, validation_split = 0.33, batch_size = 10,epochs = 1000, callbacks = early_stopping)
 
 model_history.history.keys()
 
