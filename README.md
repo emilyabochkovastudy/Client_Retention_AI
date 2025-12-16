@@ -1,4 +1,4 @@
-# Customer Churn Prediction using ANN
+# Client Churn Prediction and Retention using AI
 
 This project predicts customer churn using an **Artificial Neural Network (ANN)** built with **TensorFlow** and **Keras**. The project was developed and run in **Google Colab**.  
 
