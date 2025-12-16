@@ -67,8 +67,8 @@ dataset = pd.read_csv("/content/drive/MyDrive/Customers_information.csv")
 
 
 
-
-
+link
+https://github.com/emilyabochkovastudy/Client_Retention_AI/tree/main
 
 
 
